@@ -1,0 +1,65 @@
+/* General styles for the entire page */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container for the main content to center it and set a max width */
+main, header, footer {
+    max-width: 800px;
+    margin: 0 auto; /* Centers the block elements */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+/* Style for the main heading */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Style for subheadings */
+h2, h3 {
+    color: #34495e;
+}
+
+/* Ensure images are responsive and don't overflow their container */
+img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the list for better readability */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Styling for links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for better UX */
+}
